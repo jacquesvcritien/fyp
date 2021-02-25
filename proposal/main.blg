@@ -1,0 +1,57 @@
+This is BibTeX, Version 0.99d (TeX Live 2020)
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: main.aux
+The style file: ieeetr.bst
+Database file #1: main.bib
+Warning--empty booktitle in sapp1
+Warning--empty journal in sapp2
+Warning--empty booktitle in sapp7
+Warning--empty booktitle in sapp5
+Warning--empty booktitle in semeval14
+Warning--empty publisher in nn
+Warning--empty booktitle in semeval13
+Warning--empty booktitle in semeval15
+Warning--empty booktitle in semeval16
+Warning--empty booktitle in semeval17
+You've used 18 entries,
+            1876 wiz_defined-function locations,
+            563 strings with 5981 characters,
+and the built_in function-call counts, 3783 in all, are:
+= -- 300
+> -- 202
+< -- 0
++ -- 75
+- -- 57
+* -- 263
+:= -- 543
+add.period$ -- 19
+call.type$ -- 18
+change.case$ -- 17
+chr.to.int$ -- 0
+cite$ -- 28
+duplicate$ -- 202
+empty$ -- 399
+format.name$ -- 57
+if$ -- 912
+int.to.chr$ -- 0
+int.to.str$ -- 18
+missing$ -- 14
+newline$ -- 58
+num.names$ -- 15
+pop$ -- 117
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 0
+skip$ -- 117
+stack$ -- 0
+substring$ -- 109
+swap$ -- 50
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 0
+warning$ -- 10
+while$ -- 23
+width$ -- 20
+write$ -- 139
+(There were 10 warnings)
