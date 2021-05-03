@@ -122,9 +122,9 @@ if __name__ == "__main__":  # confirms that the code is under main function
     print("Merging files")
     
     with open('./../datasets/general/preprocessed_tweets.csv', 'wb') as outfile:
-    	for i, filename in enumerate(glob.glob('./../datasets/cleaned_tweets/*.{}'.format('csv'))):
-    		with open(filename, 'rb') as readfile:
-    			if i !=0:
-    				readfile.readline()
-    			shutil.copyfileobj(readfile, outfile)
+        for i, filename in enumerate(glob.glob('./../datasets/cleaned_tweets/*.{}'.format('csv'))):
+            with open(filename, 'rb') as readfile:
+                if i !=0:
+                    readfile.readline()
+                shutil.copyfileobj(readfile, outfile)
         
