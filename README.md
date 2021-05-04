@@ -34,6 +34,8 @@ project
 │   │   │   BTCTWEETS_english_no_duplicates.csv
 │   │   │   preprocessed_tweets.csv
 │   │   │   tweets_cleaned.csv
+│   │   │   BTCDATA.csv
+│   │   │   BTCTWEETS.csv
 │   │
 │   └───tweets_prices
 │   │   │
@@ -127,13 +129,16 @@ This folder contains all the scripts required to clean and preprocess the data
 ##### datasets
 
 This folder contains all the datasets
+<b>All this folder can be found <a target="_blank" href="https://drive.google.com/drive/folders/1LQzDb8ob0S810ASJFLQTGkK4vtKozHDE?usp=sharing">here</a> because it could not be all committed to git due to size</b>
 
 
 1. <b>general</b> - Contains the general datasets used to create lagged datasets including the original ones
     * <b>BTCDATAwithdate.csv</b> - This contains the cleaned BTC prices dataset
     * <b>BTCTWEETS_english_no_duplicates.csv</b> - This contains the dataset of tweets without duplicates and non-English tweets
     *  <b>preprocessed_tweets.csv</b> - This contains the tweets cleaned and preprocessed from the tweet_processor.py script
-    *  <b>tweets_cleaned</b> - The final cleaned dataset
+    *  <b>tweets_cleaned.csv</b> - The final cleaned dataset
+    *  <b>BTCDATA.csv</b> - Original dataset for BTC prices
+    *  <b>BTCTWEETS.csv</b> - Original dataset for BTC tweets
 
 2. <b>tweets_prices</b> - Contains the datasets with each tweet together with the corresponding BTC price
    * <b>vader</b> - Datasets with VADER poalrity scores
