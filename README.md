@@ -112,7 +112,7 @@ project
 ```
 
 
-##### data_generators_cleaners
+#### data_generators_cleaners
 
 This folder contains all the scripts required to clean and preprocess the data
 
@@ -126,7 +126,7 @@ This folder contains all the scripts required to clean and preprocess the data
 6. <b>tweets_cleaner_finaliser.ipynb</b> - Used in the last step to remove tweets with less than 4 words after tweets being cleaned.
 7. <b>tweet_processor.py</b> - Used to clean and preprocess tweets
 
-##### datasets
+#### datasets
 
 This folder contains all the datasets
 <b>All this folder can be found <a target="_blank" href="https://drive.google.com/drive/folders/1LQzDb8ob0S810ASJFLQTGkK4vtKozHDE?usp=sharing">here</a> because it could not be all committed to git due to size</b>
@@ -172,7 +172,7 @@ This folder contains all the datasets
               * <b>final_days_lag_hours_3.csv</b> - grouped cleaned dataset with 3 hours lag        
               * <b>final_days_lag_hours_7.csv</b> - grouped cleaned dataset with 7 hours lag
 
-##### models
+#### models
 
 This folder contains all the models
 
@@ -201,6 +201,6 @@ This folder contains all the models
    * <b>lstm_trend-tester.ipynb</b> - Script which tests various combinations of hyperparameters to obtain comparable results
    * <b>model.png</b> - Model's figure
 
-##### papers
+#### papers
 
 This folder contains all the papers read to implement this study
