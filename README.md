@@ -1,6 +1,6 @@
 # Bitcoin Price Prediction Through Twitter Sentiment and Data Volume
 
-This is the official repository for the the Bitcoin Price Prediction Through Twitter Sentiment and Data Volume Paper and Dissertation
+This is the official repository for the the Bitcoin Price Prediction Through Twitter Sentiment and Data Volume Project
 
 <b>Author: Jacques Vella Critien</b>
 <b>Supervisors: Dr Joshua Ellul, Prof Albert Gatt</b>
@@ -14,6 +14,7 @@ project
 └───data_generators_cleaners
 │   │   BTCprices_cleaner.ipynb
 │   │   data_grouper.ipynb
+│   │   crypto_prices_getter_yahoo.ipynb
 │   │   data_lag_creator.ipynb
 │   │   english_tweets_extractor.ipynb
 │   │   polarity_adder.ipynb
@@ -77,6 +78,8 @@ project
 │   
 └───models
 │   │
+│   └───results
+│   │
 │   └───bilstm_multiclass
 │   │   │   bilstm_multiclass.ipynb
 │   │   │   bilstm_multiclass-tester.ipynb
@@ -123,12 +126,14 @@ This folder contains all the scripts required to clean and preprocess the data
 
 
 1. <b>BTCprices_cleaner.ipynb</b> - Used to clean the prices dataset. More specifically, it sets the timestamp to UTC and removes the Open, High and Low values.
-2. <b>data_grouper.ipynb</b> - Used to group the lagged dataset hourly or daily
-3. <b>data_lag_creator.ipynb</b> - Used to create lagged datasets
-4. <b>english_tweets_extractor.ipynb</b> - Used to remove duplicates and non-English tweets
-5. <b>polarity_adder.ipynb</b> - Used to add polarity and sentiment to tweets
-6. <b>tweets_cleaner_finaliser.ipynb</b> - Used in the last step to remove tweets with less than 4 words after tweets being cleaned.
-7. <b>tweet_processor.py</b> - Used to clean and preprocess tweets
+2. <b>crypto_prices_getter_yahoo.ipynb</b> - Used to obtain crypto prices from yahoo at different intervals
+3. <b>data_grouper.ipynb</b> - Used to group the lagged dataset hourly or daily
+4. <b>data_grouper.ipynb</b> - Used to group the lagged dataset hourly or daily
+5. <b>data_lag_creator.ipynb</b> - Used to create lagged datasets
+6. <b>english_tweets_extractor.ipynb</b> - Used to remove duplicates and non-English tweets
+7. <b>polarity_adder.ipynb</b> - Used to add polarity and sentiment to tweets
+8. <b>tweets_cleaner_finaliser.ipynb</b> - Used in the last step to remove tweets with less than 4 words after tweets being cleaned.
+9. <b>tweet_processor.py</b> - Used to clean and preprocess tweets
 
 #### datasets
 
