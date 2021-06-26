@@ -103,9 +103,13 @@ project
 │   │   │   model.png
 │   │
 │   └───lstm_trend
-│       │   lstm_trend.ipynb
-│       │   lstm_trend-tester.ipynb
-│       │   model.png
+│   │   │   lstm_trend.ipynb
+│   │   │   lstm_trend-tester.ipynb
+│   │   │   model.png
+│   │
+│   └───voting_classifier
+│       │   voting_classifier.ipynb
+│       │   voting_classifiertester.ipynb
 │   
 └───papers
     │ ALL PAPERS USED   
@@ -118,7 +122,7 @@ This folder contains all the scripts required to clean and preprocess the data
 
 
 
-1. <b>BTCprices_cleaner.ipynb</b> - Used to clean the prices dataset. More specifically, it sets the timestamp to UTC and removes the Open, Gigh and Low values.
+1. <b>BTCprices_cleaner.ipynb</b> - Used to clean the prices dataset. More specifically, it sets the timestamp to UTC and removes the Open, High and Low values.
 2. <b>data_grouper.ipynb</b> - Used to group the lagged dataset hourly or daily
 3. <b>data_lag_creator.ipynb</b> - Used to create lagged datasets
 4. <b>english_tweets_extractor.ipynb</b> - Used to remove duplicates and non-English tweets
@@ -192,14 +196,17 @@ This folder contains all the models
    * <b>cnn_trend.ipynb</b> - The actual model implementation
    * <b>cnn_trend-tester.ipynb</b> - Script which tests various combinations of hyperparameters to obtain comparable results
    * <b>model.png</b> - Model's figure
-1. <b>lstm_multiclass</b> - Contains the implementation of the lstm model which predicts the magnitude of the next day's closing price change
+5. <b>lstm_multiclass</b> - Contains the implementation of the lstm model which predicts the magnitude of the next day's closing price change
    * <b>lstm_multiclass.ipynb</b> - The actual model implementation
    * <b>lstm_multiclass-tester.ipynb</b> - Script which tests various combinations of hyperparameters to obtain comparable results
    * <b>model.png</b> - Model's figure
-1. <b>lstm_trend</b> - Contains the implementation of the lstm model which predicts the direction of the next day's closing price
+6. <b>lstm_trend</b> - Contains the implementation of the lstm model which predicts the direction of the next day's closing price
    * <b>lstm_trend.ipynb</b> - The actual model implementation
    * <b>lstm_trend-tester.ipynb</b> - Script which tests various combinations of hyperparameters to obtain comparable results
    * <b>model.png</b> - Model's figure
+7. <b>voting_classifier</b> - Contains the implementation of the voting classifier
+   * <b>voting_classifier.ipynb</b> - The actual model implementation
+   * <b>voting_classifier-tester.ipynb</b> - Script which tests runs the classifier several times
 
 #### papers
 
