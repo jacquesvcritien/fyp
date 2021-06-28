@@ -142,6 +142,7 @@ This folder contains all the datasets
 
 
 1. <b>general</b> - Contains the general datasets used to create lagged datasets including the original ones
+    * <b>with_sentiment</b> - Folder with files containing tweets and their sentiment scores
     * <b>BTCDATAwithdate.csv</b> - This contains the cleaned BTC prices dataset
     * <b>BTCTWEETS_english_no_duplicates.csv</b> - This contains the dataset of tweets without duplicates and non-English tweets
     *  <b>preprocessed_tweets.csv</b> - This contains the tweets cleaned and preprocessed from the tweet_processor.py script
@@ -149,7 +150,7 @@ This folder contains all the datasets
     *  <b>BTCDATA.csv</b> - Original dataset for BTC prices
     *  <b>BTCTWEETS.csv</b> - Original dataset for BTC tweets
 
-2. <b>tweets_prices</b> - Contains the datasets with each tweet together with the corresponding BTC price
+1. <b>tweets_prices</b> - Contains the datasets with each tweet together with the corresponding BTC price
    * <b>vader</b> - Datasets with VADER poalrity scores
         * <b>final_days_lag_days_1.csv</b> - Dataset containing uncleaned tweets and prices with 1 day lag
         * <b>final_days_lag_days_3.csv</b> - Dataset containing uncleaned tweets and prices with 3 days lag
@@ -164,7 +165,7 @@ This folder contains all the datasets
             * <b>final_days_lag_hours_1.csv</b> - Dataset containing cleaned tweets and prices with 1 hour lag        
             * <b>final_days_lag_hours_3.csv</b> - Dataset containing cleaned tweets and prices with 3 hours lag        
             * <b>final_days_lag_hours_7.csv</b> - Dataset containing cleaned tweets and prices with 7 hours lag
-3. <b>tweets_prices_volumes_sentiment</b> - Contains the grouped datasets with averaged polarity scores for that time interval with the corresponding BTC prices
+2. <b>tweets_prices_volumes_sentiment</b> - Contains the grouped datasets with averaged polarity scores for that time interval with the corresponding BTC prices
    * <b>vader</b> - Datasets with VADER poalrity scores
         * <b>day_datasets</b> - Datasets grouped daily 
           * <b>final_days_lag_days_1.csv</b> - grouped uncleaned dataset with 1 day lag
